@@ -47,7 +47,7 @@ function App() {
 
         <motion.div
           // key={shakeKey}
-          className='w-64 h-40 bg-pink-300 overflow-hidden relative rounded-lg'
+          className='w-64 h-40 bg-pink-300 overflow-hidden relative rounded-lg cursor-pointer'
           // variants={shakeVariant}
           animate={
             !isOpen ? {
