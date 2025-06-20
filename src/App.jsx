@@ -24,6 +24,8 @@ const phrases = [
 function App() {
 
   const [isOpen, setIsOpen] = useState(false);
+
+  alert('texts were stolen, random or generated... the whole idea was stolen ngl');
   // const [shakeKey, setShakeKey] = useState(0);
 
   // useEffect(() => {
