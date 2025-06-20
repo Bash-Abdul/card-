@@ -27,7 +27,7 @@ function App() {
     } while (phrases.length > 1 && idx === lastIndex)
     setLastIndex(idx)
     setCurrentPhrase(phrases[idx])
-    setIsOpen(true)
+    setIsOpen(!isOpen)
   }
 
   return (
